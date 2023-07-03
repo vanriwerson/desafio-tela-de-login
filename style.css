@@ -15,7 +15,7 @@ body {
 
 form {
   align-items: center;
-  background: linear-gradient(135deg, rgba(13,121,9,0.7) 30%, rgba(166,0,255,1) 100%);
+  background: linear-gradient(135deg, rgb(13,121,9) 30%, rgba(166,0,255,1) 100%);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -24,11 +24,15 @@ form {
 }
 
 h1 {
-  margin-bottom: 20px;
+  color: #fff;
+  margin: 20px auto;
 }
 
 label {
   align-self: flex-start;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 input {
@@ -38,8 +42,22 @@ input {
 }
 
 button {
+  background-color: rgb(13,121,9);
   border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
   font-weight: bold;
+  margin: 20px auto;
   padding: 12px 28px;
   text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: rgb(13,121,9);
+}
+
+button:active {
+  transform: scale(0.9);
 }
