@@ -12,3 +12,34 @@ body {
   justify-content: center;
   width: 100vw;
 }
+
+form {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(13,121,9,0.7) 30%, rgba(166,0,255,1) 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  align-self: flex-start;
+}
+
+input {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+}
+
+button {
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 12px 28px;
+  text-transform: uppercase;
+}
