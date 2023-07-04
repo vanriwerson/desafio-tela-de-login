@@ -28,10 +28,10 @@ describe('Testes de estrutura do formulário', () => {
 
   test('Os inputs devem ter os ids "email" e "password" respectivamente', () => {
     const emailInput = document.querySelector('input#email');
-    expect(emailInput).toBeDefined();
+    expect(emailInput.id).toBe('email');
     
     const passwordInput = document.querySelector('input#password');
-    expect(passwordInput).toBeDefined();
+    expect(passwordInput.id).toBe('password');
   });
 
   test('Os inputs devem ter os tipos "email" e "password" respectivamente', () => {
