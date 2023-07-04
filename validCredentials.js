@@ -3,4 +3,4 @@ const validCredentials = {
   password: 'strongpassword',
 };
 
-export default validCredentials;
+module.exports = validCredentials;
