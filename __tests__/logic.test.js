@@ -37,9 +37,9 @@ describe('Testes de interação com o formulário', () => {
   });
 
   test('Deve existir uma variável para cada elemento do formulário', () => {
-    expect(emailInput).toBeDefined();
-    expect(passwordInput).toBeDefined();
-    expect(button).toBeDefined();
+    expect(emailInput).not.toBeNull();
+    expect(passwordInput).not.toBeNull();
+    expect(button).not.toBeNull();
   });
 
   test('O botão "Entrar" deve estar desabilitado ao carregar a página', () => {
