@@ -15,16 +15,25 @@ Para visualizar em seu navegador as alterações feitas no arquivo `index.html` 
 
 ### Requisitos
 1. Estruture seu formulário de login no arquivo `index.html`:
+  - Seu formulário de login deve estar envolto pela tag “form”;
 
-- Seu formulário de login deve estar envolto na tag “form”;
-- Crie um campo com a label “E-mail”;
-- Crie um campo com a label “Senha”;
-- Crie um botão com o texto “Entrar”.
+  - Crie um campo para a inserção do e-mail:
+    - Esse campo deve ter o id "email";
+    - Esse campo deve ter uma label com o texto “E-mail”;
+    - Esse campo dever ser do tipo "email";
+
+  - Crie um campo para a inserção da senha:
+    - Esse campo deve ter o id "password";
+    - Esse campo deve ter uma label com o texto “Senha”;
+    - Esse campo dever ser do tipo "password";
+
+  - Crie um botão para efetuar o login.
+    - Esse botão deve ter o id "login";
+    - Esse botão deve ter o texto “Entrar”;
 
 2. Crie a função para validar o login no arquivo `script.js`:
-- Crie variáveis para recuperar os valores inseridos pelo usuário nos campos do formulário de login;
-- Verifique se o e-mail informado é o mesmo que está contido no arquivo `validCredentials.js`;
-- Verifique se a senha informada é a mesma que está contida no arquivo `validCredentials.js`;
-- Emita um `window.alert` com a mensagem “Login efetuado com sucesso” caso as credenciais fornecidas estejam corretas;
-- Emita um `window.alert` com a mensagem “E-mail ou senha inválidos” caso alguma das credenciais fornecidas esteja incorreta.
-
+  - Crie variáveis para recuperar os valores inseridos pelo usuário nos campos do formulário de login;
+  - Verifique se o e-mail informado é o mesmo que está contido no objeto `validCredentials.js`;
+  - Verifique se a senha informada é a mesma que está contida no objeto `validCredentials.js`;
+  - Emita um `window.alert` com a mensagem “Login efetuado com sucesso” caso as credenciais fornecidas estejam corretas;
+  - Emita um `window.alert` com a mensagem “E-mail ou senha inválidos” caso alguma das credenciais fornecidas esteja incorreta.

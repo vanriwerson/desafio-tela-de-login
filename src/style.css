@@ -53,11 +53,16 @@ button {
   transition: all 0.3s ease;
 }
 
+button:active {
+  transform: scale(0.9);
+}
+
+button:disabled {
+  background-color: #b8b8b8;
+  color: #000;
+}
+
 button:hover {
   background-color: #fff;
   color: rgb(13,121,9);
-}
-
-button:active {
-  transform: scale(0.9);
 }

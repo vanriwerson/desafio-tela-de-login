@@ -19,4 +19,11 @@ function validateCredentials() {
   }
 }
 
+function toggleButtonDisabledProp() {
+  button.disabled = !(email.value && password.value);
+}
+
+email.addEventListener('input', toggleButtonDisabledProp);
+password.addEventListener('input', toggleButtonDisabledProp);
+
 button.addEventListener('click', validateCredentials);
