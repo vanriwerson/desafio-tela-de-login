@@ -10,6 +10,23 @@ Para realizar esse desafio, você precisa ter conhecimentos básicos sobre:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS);
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/Javascript).
 
+### Leia antes de começar a desenvolver ^^
+- Clone esse repositório:
+  ```
+    git clone git@github.com:vanriwerson/desafio-tela-de-login.git
+  ```
+
+- Instale as dependências do projeto:
+  ```
+    npm install
+  ```
+
+- Rode os testes do desafio:
+  ```
+    npm test
+  ```
+Eles devem falhar!
+
 ### Dicas
 Para visualizar em seu navegador as alterações feitas no arquivo `index.html` toda vez que ele for salvo, recomendo o uso da extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VSCode.
 
